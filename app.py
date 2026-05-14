@@ -51,7 +51,7 @@ st.markdown('<div class="subtitle">AI-Powered URL Safety Scanner ⚡</div>', uns
 st.markdown('<div class="card">', unsafe_allow_html=True)
 
 url = st.text_input("🔗 Paste your URL here")
-API_KEY = "AIzaSyDsqPUmYY-hnPccvDgIfsshKpz-TggD38s"
+
 
 def basic_check(url):
     if "https" not in url: return "No HTTPS detected"
